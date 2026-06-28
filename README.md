@@ -1,54 +1,70 @@
-# WHMCS-Module-Synology
-The module gives the company the ability to offer user accounts on Synology devices. Users can have multiple accounts. Accounts may differ with parameters defined in groups.
-The module requires an existing, fully deployed Synology machine with properly configured groups and other options (more information later in the manual)
 # Description
 
-## Synology module **[WHMCS](https://puqcloud.com/link.php?id=77)** 
+### Synology module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+#####  [Order now](https://puqcloud.com/whmcs-module-synology.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/) | [Community](https://community.puqcloud.com/)
 
-#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-synology) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/) | [FAQ](https://faq.puqcloud.com/)
+The **PUQ Synology module for WHMCS** turns your Synology NAS into a fully automated, self-service storage product. From the moment a client places an order, the module creates and manages their Synology DSM account end-to-end — no manual steps, no DSM logins, no spreadsheets. Everything is handled through the official Synology DSM Web API.
 
-The module gives the company the ability to offer user accounts on Synology devices. Users can have multiple accounts. Accounts may differ with parameters defined in groups.
+Built for resellers and hosting providers, the module lets you sell disk space on Synology devices with per-plan parameters defined by **Synology groups**, while your clients get a clean, modern self-service area.
 
->The module requires an existing, fully deployed Synology machine with properly configured groups and other options (more information later in the manual).
+> **Note:** The module requires an existing, fully deployed Synology machine with properly configured groups and other options (more information later in the manual).
 
->The module does not support the installation or configuration of DSM on Synology machines in any way.
+> **Note:** The module does not install or configure DSM on Synology machines in any way — it only provisions and manages user accounts through the API.
 
-Functions:
+---
 
-- Auto create and deploy account on Synology
-- The module uses only the API to manage the accounts
-- Module supports multilingualism
-- The module shows the current and history of data usage by the user
-- The module notifies the user about exceeding the data limit
-- Link to instructions for setting up the service in the client area.
+## Key features
 
-Available options in the admin panel:
+### Full account lifecycle automation
+- Automatic account **creation and deployment** on Synology when an order is activated
+- **Suspend, unsuspend, terminate, change password** and **change package** — all driven by the DSM API
+- **Duplicate protection** — the module never overwrites an account that already exists on the NAS
+- Smart, collision-safe **username generation** with macros (`{client_id}`, `{service_id}`, random digits/letters, date/time) — always DSM/Linux-compliant
+- **DSM-policy-aware password generation** — generated passwords automatically satisfy your server's password-strength rules
 
-- Create users
-- Suspend users
-- Unsuspend users
-- Terminate users
-- Change users password
-- Change Package
-- API connection status
-- Disk status
+### Group-based plans (real limits on the server)
+- Each product assigns the client to a **pre-configured Synology group**, chosen from a live drop-down of the groups that actually exist on your server
+- The real disk quota and permissions are enforced by that Synology group — configure them once in DSM and resell with confidence
+- On **package change**, the user is moved from the old group to the new one automatically
 
-Available options in the client panel:
+### Disk usage monitoring & notifications
+- Live **disk usage** with current and historical data (last 30 days and monthly averages)
+- Automatic **email notification** when a client exceeds a configurable usage threshold
+- Usage percentage and free/used breakdown shown to the client
 
-- Change user password
-- Change Package
-- Disk status
-- Using disk space statistics
+### Modern client area
+- Redesigned, card-based interface with **copy-to-clipboard** for credentials and a **show/hide password** toggle
+- Disk-usage **pie chart** and historical **usage statistics** charts
+- One-click link to your **user manual / setup instructions**
 
+### Powerful admin tools
+- **API connection status** indicator
+- **User details** at a glance — username, status, group membership, email, expiry
+- **Disk usage** progress bar and full breakdown directly on the service page
+- Built-in **license verification** with proactive alerts on the admin dashboard
 
-- - - - - -
+### Localization & compatibility
+- **25 interface languages** out of the box
+- Works across the **entire Synology DSM 7 line**
+- Compatible with **WHMCS 8+** and **PHP 7.4 / 8.1 / 8.2** (PHP-version-specific builds provided)
 
->WHMCS minimal version: 8 +  
-Synology DMS  v6+/v7
+---
 
-![image](https://user-images.githubusercontent.com/81689153/223086275-df286e76-57c7-47a9-95db-0b6937969aee.png)
+## Compatibility
 
-![image](https://user-images.githubusercontent.com/81689153/223086297-38449102-fd60-4104-bf09-7ee4b622c8ac.png)
+| Requirement | Supported |
+|-------------|-----------|
+| **Synology DSM** | Entire DSM 7.x line |
+| **WHMCS** | 8.x or higher |
+| **PHP** | 7.4 / 8.1 / 8.2 |
+| **ionCube Loader** | Required |
 
-![image](https://user-images.githubusercontent.com/81689153/223086319-b1f188d6-40b2-4bfa-a98e-a65a6ed6bbbb.png)
+---
 
+## Screenshots
+
+### Client area — modern self-service
+![Client area home screen](img/16-home-screen.png)
+
+### Admin area — product information
+![Admin product information](img/15-product-information.png)

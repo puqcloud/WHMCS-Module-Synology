@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0082c9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a4e4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="440" height="250" fill="url(#bg)" rx="8"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="440" height="4" fill="url(#accent)" rx="2"/>
+
+  <!-- NAS device icon -->
+  <g transform="translate(34, 60)">
+    <!-- chassis -->
+    <rect x="0" y="0" width="72" height="84" rx="9" fill="none" stroke="#00a4e4" stroke-width="2.5"/>
+    <!-- drive bays -->
+    <rect x="12" y="12" width="20" height="60" rx="3" fill="none" stroke="#00a4e4" stroke-width="2"/>
+    <rect x="40" y="12" width="20" height="60" rx="3" fill="none" stroke="#00a4e4" stroke-width="2"/>
+    <!-- bay handles -->
+    <line x1="16" y1="20" x2="28" y2="20" stroke="#00a4e4" stroke-width="2" stroke-linecap="round"/>
+    <line x1="44" y1="20" x2="56" y2="20" stroke="#00a4e4" stroke-width="2" stroke-linecap="round"/>
+    <!-- status LEDs -->
+    <circle cx="22" cy="63" r="2.4" fill="#00a4e4"/>
+    <circle cx="50" cy="63" r="2.4" fill="#0082c9"/>
+  </g>
+
+  <!-- WHMCS badge -->
+  <g transform="translate(124, 70)">
+    <rect x="0" y="0" width="85" height="32" rx="6" fill="#00a4e4" opacity="0.15" stroke="#00a4e4" stroke-width="1.5"/>
+    <text x="42" y="21" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#7dd3fc" text-anchor="middle">WHMCS</text>
+  </g>
+
+  <!-- Module title -->
+  <text x="244" y="77" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="start">Synology</text>
+  <text x="244" y="110" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="start">Module</text>
+
+  <!-- Subtitle -->
+  <text x="244" y="137" font-family="Arial, sans-serif" font-size="13" fill="#94a3b8" text-anchor="start">WHMCS Server Module</text>
+
+  <!-- Divider -->
+  <rect x="244" y="150" width="60" height="2" fill="#0082c9" rx="1"/>
+
+  <!-- Description -->
+  <text x="244" y="174" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="start">Automated provisioning and management</text>
+  <text x="244" y="190" font-family="Arial, sans-serif" font-size="11" fill="#64748b" text-anchor="start">of Synology DSM user accounts</text>
+
+  <!-- PUQ Cloud branding -->
+  <g transform="translate(34, 212)">
+    <text x="0" y="15" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#0082c9">PUQ</text>
+    <text x="55" y="15" font-family="Arial, sans-serif" font-size="12" fill="#64748b">cloud</text>
+  </g>
+
+  <!-- Version badge -->
+  <g transform="translate(370, 218)">
+    <rect x="0" y="0" width="45" height="20" rx="4" fill="#0082c9" opacity="0.2" stroke="#0082c9" stroke-width="1"/>
+    <text x="22" y="14" font-family="Arial, sans-serif" font-size="11" fill="#7dd3fc" text-anchor="middle">v3.0</text>
+  </g>
+</svg>

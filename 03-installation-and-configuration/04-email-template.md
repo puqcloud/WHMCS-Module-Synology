@@ -1,10 +1,10 @@
 # Email Template (puqSynology Notification disk limit)
 
-## Synology module **[WHMCS](https://puqcloud.com/link.php?id=77)** 
+### Synology module **[WHMCS](https://puqcloud.com/link.php?id=77)** 
 
-#####  [Order now](https://puqcloud.com/index.php?rp=/store/whmcs-module-synology) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/) | [FAQ](https://faq.puqcloud.com/)
+#####  [Order now](https://puqcloud.com/whmcs-module-synology.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/) | [Community](https://community.puqcloud.com/)
 
-### Create an email template for customer notifications.
+##### Create an email template for customer notifications.
 
 ```
 System Settings->Email Templates->Create New Email Template
@@ -13,7 +13,7 @@ System Settings->Email Templates->Create New Email Template
 - **Email Type:** Product/service
 - **Unique Name:** puqSynology Notification disk limit
 
-[![image-1660040723161.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1660040723161.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1660040723161.png)
+![12-email-template-1.png](../img/12-email-template-1.png)
 
 **Subject:**
 
@@ -37,8 +37,7 @@ Disk limit: {$disk_limit_bytes*$unit_coefficient} {$unit}
 Disk used: {$disk_used_unit} {$unit} ({$disk_used_percentage} %)
 Disk free: {$disk_free_unit} {$unit} ({$disk_free_percentage} %)
 
-
 {$signature}
 ```
 
-[![image-1660040784521.png](https://doc.puq.info/uploads/images/gallery/2022-08/scaled-1680-/image-1660040784521.png)](https://doc.puq.info/uploads/images/gallery/2022-08/image-1660040784521.png)
+![13-email-template-2.png](../img/13-email-template-2.png)
