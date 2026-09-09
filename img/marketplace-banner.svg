@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0082c9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00a4e4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nasChassis" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.95" />
+    </linearGradient>
+    <linearGradient id="bayGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#16213e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0.9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="500" height="500" fill="url(#bg)"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="500" height="8" fill="url(#accent)"/>
+
+  <!-- Ambient Glow behind NAS Device -->
+  <circle cx="250" cy="125" r="95" fill="#0082c9" opacity="0.12" />
+  <circle cx="250" cy="125" r="65" fill="#00a4e4" opacity="0.15" />
+
+  <!-- Synology NAS Device (Centered at X=250, Y=125) -->
+  <g transform="translate(250, 125)">
+    <!-- Main Tower Chassis (Width: 140, Height: 154, Centered: -70 to 70, -77 to 77) -->
+    <rect x="-70" y="-77" width="140" height="154" rx="14"
+          fill="url(#nasChassis)"
+          stroke="#00a4e4"
+          stroke-width="3"
+          stroke-linejoin="round"/>
+
+    <!-- Left Drive Bay -->
+    <g transform="translate(-52, -54)">
+      <rect x="0" y="0" width="44" height="110" rx="6"
+            fill="url(#bayGrad)"
+            stroke="#00a4e4"
+            stroke-width="2"
+            stroke-opacity="0.8"/>
+      <!-- Bay Latch / Handle -->
+      <rect x="8" y="14" width="28" height="6" rx="2" fill="#0082c9" opacity="0.7"/>
+      <!-- Disk Ventilation Slots -->
+      <line x1="12" y1="36" x2="32" y2="36" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="46" x2="32" y2="46" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="56" x2="32" y2="56" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="66" x2="32" y2="66" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="76" x2="32" y2="76" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <!-- Drive Activity LED -->
+      <circle cx="22" cy="94" r="3.5" fill="#22c55e"/>
+    </g>
+
+    <!-- Right Drive Bay -->
+    <g transform="translate(8, -54)">
+      <rect x="0" y="0" width="44" height="110" rx="6"
+            fill="url(#bayGrad)"
+            stroke="#00a4e4"
+            stroke-width="2"
+            stroke-opacity="0.8"/>
+      <!-- Bay Latch / Handle -->
+      <rect x="8" y="14" width="28" height="6" rx="2" fill="#0082c9" opacity="0.7"/>
+      <!-- Disk Ventilation Slots -->
+      <line x1="12" y1="36" x2="32" y2="36" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="46" x2="32" y2="46" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="56" x2="32" y2="56" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="66" x2="32" y2="66" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <line x1="12" y1="76" x2="32" y2="76" stroke="#475569" stroke-width="2" stroke-linecap="round"/>
+      <!-- Drive Activity LED -->
+      <circle cx="22" cy="94" r="3.5" fill="#22c55e"/>
+    </g>
+
+    <!-- Front Status Panel (Top Header) -->
+    <!-- Power / Status LEDs -->
+    <circle cx="-30" cy="-66" r="3" fill="#38bdf8"/>
+    <circle cx="-18" cy="-66" r="3" fill="#22c55e"/>
+    <circle cx="-6" cy="-66" r="3" fill="#eab308" opacity="0.7"/>
+
+    <!-- Power Button -->
+    <rect x="30" y="-70" width="22" height="8" rx="3" fill="#0082c9" stroke="#38bdf8" stroke-width="1.2"/>
+  </g>
+
+  <!-- Module Name (Big & Readable, Spanning Edge-to-Edge) -->
+  <text x="250" y="280" font-family="Arial, sans-serif" font-size="82" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="2.5">SYNOLOGY</text>
+
+  <!-- Subtitle (Larger & Prominent) -->
+  <text x="250" y="336" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#94a3b8" text-anchor="middle" letter-spacing="2">WHMCS SERVER MODULE</text>
+
+  <!-- Separator -->
+  <rect x="150" y="362" width="200" height="4" fill="#0082c9" rx="2"/>
+
+  <!-- PUQ Software Branding (Enlarged & Centered) -->
+  <g transform="translate(155, 405)">
+    <text x="0" y="28" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#0082c9">PUQ</text>
+    <text x="92" y="28" font-family="Arial, sans-serif" font-size="22" fill="#64748b">Software</text>
+  </g>
+</svg>

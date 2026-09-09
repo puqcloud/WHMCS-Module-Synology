@@ -6,4 +6,4 @@
 
 ##### **Below you can see an example of an email notification regarding data limit**
 
-![17-email-notification.png](../img/17-email-notification.png)
+![17-email-notification.png](../img/17-email-notification.png)*17-email-notification.png*

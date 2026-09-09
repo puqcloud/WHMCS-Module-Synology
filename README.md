@@ -46,18 +46,18 @@ Built for resellers and hosting providers, the module lets you sell disk space o
 ### Localization & compatibility
 - **25 interface languages** out of the box
 - Works across the **entire Synology DSM 7 line**
-- Compatible with **WHMCS 8+** and **PHP 7.4 / 8.1 / 8.2** (PHP-version-specific builds provided)
+- Compatible with **WHMCS 8+** and **PHP 8.1+**
 
 ---
 
-## Compatibility
+## System requirements
 
-| Requirement | Supported |
-|-------------|-----------|
+| Requirement | Minimum |
+|-------------|---------|
+| **WHMCS** | 8.x+, 9.x+. |
+| **PHP** | 7.4, 8.1, 8.2, 8.3, 8.4 |
 | **Synology DSM** | Entire DSM 7.x line |
-| **WHMCS** | 8.x or higher |
-| **PHP** | 7.4 / 8.1 / 8.2 |
-| **ionCube Loader** | Required |
+| **ionCube Loader** | v15+ |
 
 ---
 
@@ -65,6 +65,8 @@ Built for resellers and hosting providers, the module lets you sell disk space o
 
 ### Client area — modern self-service
 ![Client area home screen](img/16-home-screen.png)
+*16-home-screen.png*
 
 ### Admin area — product information
 ![Admin product information](img/15-product-information.png)
+*15-product-information.png*

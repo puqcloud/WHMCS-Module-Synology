@@ -13,10 +13,12 @@ System Settings->Servers->Add New Server
 - Enter the correct **Name** and **Hostname**
 
 ![10-add-server-1.png](../img/10-add-server-1.png)
+*10-add-server-1.png*
 
 - In the **Server Details** section, select the "**PUQ Synology**" module and enter the correct **username** and **password** for the **Synology NAS web interface**.
 - To check, click the **"Test connection"** button
 
 ![11-add-server-2.png](../img/11-add-server-2.png)
+*11-add-server-2.png*
 
 > **Warning:** WARNING: **ACCESS HASH** field Used to store the access key to the server and is updated automatically.

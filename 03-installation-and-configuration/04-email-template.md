@@ -14,6 +14,7 @@ System Settings->Email Templates->Create New Email Template
 - **Unique Name:** puqSynology Notification disk limit
 
 ![12-email-template-1.png](../img/12-email-template-1.png)
+*12-email-template-1.png*
 
 **Subject:**
 
@@ -40,4 +41,4 @@ Disk free: {$disk_free_unit} {$unit} ({$disk_free_percentage} %)
 {$signature}
 ```
 
-![13-email-template-2.png](../img/13-email-template-2.png)
+![13-email-template-2.png](../img/13-email-template-2.png)*13-email-template-2.png*

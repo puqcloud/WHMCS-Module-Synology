@@ -7,7 +7,8 @@
 Client can check the data usage statistics in the menu item **"Used space statistics"**
 
 ![18-disk-statistics-1.png](../img/18-disk-statistics-1.png)
+*18-disk-statistics-1.png*
 
 ##### Disk Usage Charts
 
-![19-disk-statistics-2.png](../img/19-disk-statistics-2.png)
+![19-disk-statistics-2.png](../img/19-disk-statistics-2.png)*19-disk-statistics-2.png*

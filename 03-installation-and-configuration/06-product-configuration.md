@@ -14,6 +14,7 @@ contains your Synology server, then click **Save Changes**. The module then rend
 configuration panel.
 
 ![14-product-configuration-overview.png](../img/14-product-configuration-overview.png)
+*14-product-configuration-overview.png*
 
 > **Note:** Select the **Server Group** and save the product first — the **Synology group** drop-down
 > (in the Disk section) is populated live from the server assigned to that group.
@@ -30,6 +31,7 @@ At the top of the panel:
 ### Disk
 
 ![20-product-config-disk.png](../img/20-product-config-disk.png)
+*20-product-config-disk.png*
 
 > **Note:** **Display only.** The disk size/unit are shown to the client in the client area (and used for
 > the usage-percentage chart and notifications). They do **not** enforce a limit on Synology. The real
@@ -47,6 +49,7 @@ At the top of the panel:
 ### Notifications
 
 ![21-product-config-notifications.png](../img/21-product-config-notifications.png)
+*21-product-config-notifications.png*
 
 - **Notify at %** — usage threshold; when a client exceeds it, a low-disk-space notification is sent.
 - **Email template** — the WHMCS email template used for low-disk-space notifications (`None` to disable).
@@ -56,6 +59,7 @@ At the top of the panel:
 ### History
 
 ![22-product-config-history.png](../img/22-product-config-history.png)
+*22-product-config-history.png*
 
 - **Save history (days)** — how many days of disk-usage statistics to keep in WHMCS.
 
@@ -64,6 +68,7 @@ At the top of the panel:
 ### Client Area
 
 ![23-product-config-client-area.png](../img/23-product-config-client-area.png)
+*23-product-config-client-area.png*
 
 - **Link to instruction** — an optional URL; when set, a **User manual** button is shown in the client area.
 - **Show password** — how the password is presented in the client area (**Show button** / plain text / hidden).
@@ -73,6 +78,7 @@ At the top of the panel:
 ### User
 
 ![24-product-config-user.png](../img/24-product-config-user.png)
+*24-product-config-user.png*
 
 - **Username rule** — template for the generated username, using macros:
   - Base: `{client_id}`, `{service_id}`

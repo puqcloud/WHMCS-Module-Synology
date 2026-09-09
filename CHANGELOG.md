@@ -5,6 +5,16 @@
 
 ---
 
+## v4.0.0 (02-09-2026)
+
+- Full compatibility with WHMCS 8.x and WHMCS 9+
+- Universal **ionCube Loader v15** support for seamless encoding compatibility
+- Modernized administrative product settings interface with dynamic injection and enhanced stability
+- Enhanced DSM API session management and quota synchronization
+- Performance and stability improvements across user provisioning workflows
+
+---
+
 ##### v3.0 Released 28-06-2026
 
 **A major release — the module has been fully re-engineered and adapted to the latest Synology DSM.**

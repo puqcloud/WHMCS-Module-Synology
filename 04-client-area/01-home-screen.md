@@ -12,4 +12,4 @@ The end customer, after logging in to his own customer panel, has access to the 
 - Usage statistics graph
 - Table with data on the use of the service
 
-![16-home-screen.png](../img/16-home-screen.png)
+![16-home-screen.png](../img/16-home-screen.png)*16-home-screen.png*

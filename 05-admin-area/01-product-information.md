@@ -6,4 +6,4 @@
 
 ##### Product Information Screen
 
-![15-product-information.png](../img/15-product-information.png)
+![15-product-information.png](../img/15-product-information.png)*15-product-information.png*
