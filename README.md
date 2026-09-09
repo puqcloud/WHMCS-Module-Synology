@@ -1,6 +1,6 @@
 # Description
 
-### Synology module **[WHMCS](https://puqcloud.com/link.php?id=77)**
+### Synology module **[WHMCS](https://puqcloud.com/whmcs-module-synology.php)**
 #####  [Order now](https://puqcloud.com/whmcs-module-synology.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/) | [Community](https://community.puqcloud.com/)
 
 The **PUQ Synology module for WHMCS** turns your Synology NAS into a fully automated, self-service storage product. From the moment a client places an order, the module creates and manages their Synology DSM account end-to-end — no manual steps, no DSM logins, no spreadsheets. Everything is handled through the official Synology DSM Web API.
@@ -58,6 +58,16 @@ Built for resellers and hosting providers, the module lets you sell disk space o
 | **PHP** | 7.4, 8.1, 8.2, 8.3, 8.4 |
 | **Synology DSM** | Entire DSM 7.x line |
 | **ionCube Loader** | v15+ |
+
+---
+
+## Links
+
+- **Product page:** [https://puqcloud.com/whmcs-module-synology.php](https://puqcloud.com/whmcs-module-synology.php)
+- **Documentation:** [https://doc.puq.info/books/synology-whmcs-module](https://doc.puq.info/books/synology-whmcs-module)
+- **Download:** [https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/)
+- **Support:** [https://puqcloud.com/submitticket.php](https://puqcloud.com/submitticket.php?step=2&deptid=1)
+- **Community:** [https://community.puqcloud.com/](https://community.puqcloud.com/)
 
 ---
 

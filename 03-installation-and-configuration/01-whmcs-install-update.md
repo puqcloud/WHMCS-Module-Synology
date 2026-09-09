@@ -28,7 +28,10 @@
 
 The module can be ordered and downloaded from PUQ Cloud:
 
-- **Order / Download:** [https://puqcloud.com/whmcs-module-synology.php](https://puqcloud.com/whmcs-module-synology.php)
+- **Order Module:** [https://puqcloud.com/whmcs-module-synology.php](https://puqcloud.com/whmcs-module-synology.php)
+- **Documentation:** [https://doc.puq.info/books/synology-whmcs-module](https://doc.puq.info/books/synology-whmcs-module)
+- **All Versions / Download:** [https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/)
+- **Support:** [https://puqcloud.com/submitticket.php](https://puqcloud.com/submitticket.php?step=2&deptid=1)
 - **Community:** [https://community.puqcloud.com/](https://community.puqcloud.com/)
 - **Direct download link for the latest version:**
 
