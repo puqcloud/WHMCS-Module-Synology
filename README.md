@@ -1,6 +1,7 @@
 # Description
 
-### Synology module **[WHMCS](https://puqcloud.com/whmcs-module-synology.php)**
+### Synology module **[WHMCS](https://puqcloud.com/link.php?id=77
+)**
 #####  [Order now](https://puqcloud.com/whmcs-module-synology.php) | [Download](https://download.puqcloud.com/WHMCS/servers/PUQ_WHMCS-Synology/) | [Community](https://community.puqcloud.com/)
 
 The **PUQ Synology module for WHMCS** turns your Synology NAS into a fully automated, self-service storage product. From the moment a client places an order, the module creates and manages their Synology DSM account end-to-end — no manual steps, no DSM logins, no spreadsheets. Everything is handled through the official Synology DSM Web API.
