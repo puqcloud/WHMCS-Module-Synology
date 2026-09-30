@@ -5,6 +5,16 @@
 
 ---
 
+## v4.1.0 (30-09-2026)
+
+- **Bulletproof Cron Disk Quota Synchronization.** Background disk usage updates and storage quota calculations are now strictly isolated per user account with dedicated diagnostics. Temporary Synology NAS connection delays or API timeouts will never abort the daily WHMCS cron automation.
+- **Zero-Disruption Architecture & Error Isolation.** Replaced low-level exit calls with structured exceptions and guarded admin hooks, ensuring administrative product panels and client area sidebars remain responsive under all conditions.
+- **Zero-Touch Settings Auto-Migration.** Legacy product configuration options are automatically migrated into modern unified settings (`configoption24`) directly in the database when saved or viewed.
+- **Optimized Admin AJAX & WHMCS 9 UX.** Streamlined AJAX group population controllers and enhanced Select2 event detection for responsive product configuration in WHMCS 9.
+- **Clean Module Logging.** Excluded repetitive local database license verification checks (`License_Verification (db)`) from the WHMCS Module Log, recording exclusively online verification calls to keep diagnostic logs clean.
+
+---
+
 ## v4.0.0 (02-09-2026)
 
 - Full compatibility with WHMCS 8.x and WHMCS 9+
